@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+/*HEADER*/
+
+.siteTitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+.orbit-image {
+  height:500px;
+  width:100%;
+  overflow: hidden;
+}
+
+.orbit-container {
+  height: 1524px;
+}
