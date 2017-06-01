@@ -3,9 +3,13 @@
 
 /*HEADER*/
 
-.siteTitle {
+.top-bar {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
+}
+
+.site-title, .address, .phone {
+  font-weight: normal;
 }
 
 .orbit-image {
@@ -16,9 +20,10 @@
 
 .orbit-container {
   height: 1524px;
+  font-family: 'Raleway', sans-serif;
 }
 
-.social-footer-left {
+.footer-left {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
   color: #1779ba;
