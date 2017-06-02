@@ -2,83 +2,28 @@
 
 
 /*HEADER*/
+* {
+  font-family: 'Raleway', sans-serif;
+}
 
-.top-bar {
+.menu {
+  margin-top: 2.5rem;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
+  background: #e6e6e6;
 }
 
-.site-title, .address, .phone {
-  font-weight: normal;
+.is-drilldown {
+  min-height: 400px;
 }
 
-.orbit-image {
-  height:500px;
-  width:100%;
-  overflow: hidden;
-}
-
-.orbit-container {
-  height: 1524px;
+.join {
   font-family: 'Raleway', sans-serif;
 }
 
-.bloc-container {
-  text-align: center;
-}
-
-.orbit, .moto {
-  display: inline;
-}
-
-.moto {
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-}
-
-
-.footer-left {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1rem;
-  color: #1779ba;
-  margin-top: 5px;
-  background: lightgrey;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.social-footer {
-  padding: 1rem;
-  background: lightgrey;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.social-footer .social-footer-icons li:last-of-type {
-  margin-right: 0;
-}
-
-.social-footer .social-footer-icons .fa {
-  font-size: 1.3rem;
-  color: #1779ba;
-}
-
-.social-footer .social-footer-icons .fa:hover {
-  color: #4a4a4a;
-  transition: color 0.3s ease-in;
+.socialMedia {
+  font-size: 30px;
+  background: transparent;
+  margin-bottom: 4rem !important;
 }
 
