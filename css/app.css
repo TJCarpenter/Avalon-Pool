@@ -23,6 +23,14 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.bloc-container {
+  text-align: center;
+}
+
+.orbit, .moto {
+  display: inline;
+}
+
 .moto {
   text-align: center;
   font-family: 'Raleway', sans-serif;
