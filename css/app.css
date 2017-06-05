@@ -25,6 +25,7 @@
   font-size: 30px;
   background: transparent;
   margin-bottom: 4rem !important;
+  text-align: -webkit-center;
 }
 
 footer div.columns, div.full-width {
