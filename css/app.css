@@ -17,6 +17,12 @@ header ul.menu {
   min-height: 400px;
 }
 
+.menu nav li a {
+  display: block;
+  padding: 0.7rem 1rem;
+  line-height: 1;
+}
+
 
 .socialMedia {
   font-size: 30px;
@@ -44,4 +50,30 @@ footer li a {
 
 footer li a:hover{
   color: lightgray;
+}
+
+.card {
+  margin-top: 2rem;
+  max-width: 100%;
+
+}
+
+div.card-divider h4 {
+  margin-bottom: 0px;
+  margin-right: 2rem;
+}
+
+div.card-divider hr {
+  margin: 0px;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+h1.header {
+  margin-top: 1rem;
 }
